@@ -144,6 +144,9 @@ Report problems or suggestions through [GitHub Issues](https://github.com/JushiZ
 <div align="center">
   <p>Thank you to everyone who reports issues and helps improve Nimbus Player.</p>
   <!-- CONTRIBUTORS-START -->
+  <a href="https://github.com/Junchnzy" title="Junchnzy">
+    <img src="https://github.com/Junchnzy.png" width="50" height="50" alt="Junchnzy" style="border-radius: 50%;" />
+  </a>
   <a href="https://github.com/continue197" title="continue197">
     <img src="https://github.com/continue197.png" width="50" height="50" alt="continue197" style="border-radius: 50%;" />
   </a>

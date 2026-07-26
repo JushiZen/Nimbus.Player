@@ -144,6 +144,9 @@
 <div align="center">
   <p>感谢在 GitHub Issues 中提交反馈、帮助改进云幕的每一位</p>
   <!-- CONTRIBUTORS-START -->
+  <a href="https://github.com/Junchnzy" title="Junchnzy">
+    <img src="https://github.com/Junchnzy.png" width="50" height="50" alt="Junchnzy" style="border-radius: 50%;" />
+  </a>
   <a href="https://github.com/continue197" title="continue197">
     <img src="https://github.com/continue197.png" width="50" height="50" alt="continue197" style="border-radius: 50%;" />
   </a>
