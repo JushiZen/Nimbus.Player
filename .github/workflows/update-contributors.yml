@@ -1,0 +1,35 @@
+name: Update Contributors
+
+on:
+  issues:
+    types: [opened]
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: read
+
+jobs:
+  update-contributors:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update contributor avatars
+        run: bash .github/scripts/update-contributors.sh
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md README_EN.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "docs: auto-update contributor avatars"
+            git push
+          fi

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="70%">
+      <stop offset="0%" stop-color="#0a0f1e"/>
+      <stop offset="60%" stop-color="#050816"/>
+      <stop offset="100%" stop-color="#02030b"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00FFD5"/>
+      <stop offset="50%" stop-color="#5B8CFF"/>
+      <stop offset="100%" stop-color="#B84DFF"/>
+    </linearGradient>
+    <filter id="glow" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur stdDeviation="12" result="b"/>
+      <feColorMatrix in="b" type="matrix"
+        values="1 0 0 0 0
+                0 1 0 0 0
+                0 0 1 0 0
+                0 0 0 0.75 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+
+  <!-- Outer ring -->
+  <circle cx="512" cy="512" r="330" fill="none" stroke="url(#ring)" stroke-width="36" filter="url(#glow)"/>
+
+  <!-- Inner segmented arcs -->
+  <path d="M512 254 A258 258 0 0 1 770 512" fill="none" stroke="url(#ring)" stroke-width="44" stroke-linecap="round" filter="url(#glow)"/>
+  <path d="M512 770 A258 258 0 0 1 254 512" fill="none" stroke="url(#ring)" stroke-width="44" stroke-linecap="round" filter="url(#glow)"/>
+
+  <!-- Core: stylized 'pulse' bars (not play button) -->
+  <g filter="url(#glow)" stroke="url(#ring)" stroke-linecap="round">
+    <path d="M372 560 V464" stroke-width="40"/>
+    <path d="M452 612 V412" stroke-width="40"/>
+    <path d="M532 640 V384" stroke-width="40"/>
+    <path d="M612 612 V412" stroke-width="40"/>
+    <path d="M692 560 V464" stroke-width="40"/>
+  </g>
+
+  <!-- Orbit dots -->
+  <g fill="url(#ring)" filter="url(#glow)">
+    <circle cx="512" cy="182" r="14"/>
+    <circle cx="812" cy="512" r="14"/>
+    <circle cx="512" cy="842" r="14"/>
+    <circle cx="212" cy="512" r="14"/>
+  </g>
+</svg>
+
+
