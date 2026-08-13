@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logo.svg" alt="Nimbus Player" width="96" />
+<img src="assets/logo.png" alt="Nimbus Player" width="96" />
 
 [中文](README.md) | [English](README_EN.md) | [日本語](README_ja.md) | **한국어** | [Русский](README_ru.md)
 
