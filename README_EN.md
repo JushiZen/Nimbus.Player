@@ -95,6 +95,8 @@ Manage servers and direct libraries in one place.
 
 ![Servers and libraries](assets/servers.png)
 
+![Connected server home](assets/servers-home.png)
+
 ### Library
 
 Browse a poster wall with filtering and sorting.
@@ -106,10 +108,6 @@ Browse a poster wall with filtering and sorting.
 View summaries, cast, episodes, media versions, and related titles.
 
 ![Detail hero](assets/detail-hero.png)
-
-![Information and cast](assets/detail-info.png)
-
-![Episodes and related titles](assets/detail-episodes.png)
 
 ### Player
 

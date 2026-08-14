@@ -95,6 +95,8 @@
 
 ![服务器与资源库](assets/servers.png)
 
+![已连接服务器首页](assets/servers-home.png)
+
 ### 媒体库
 
 通过海报墙浏览内容，并按类型筛选和排序。
@@ -106,10 +108,6 @@
 查看简介、演职员、分集、媒体版本与相关推荐。
 
 ![详情页顶部](assets/detail-hero.png)
-
-![简介与演职员](assets/detail-info.png)
-
-![分集与相关推荐](assets/detail-episodes.png)
 
 ### 播放窗口
 

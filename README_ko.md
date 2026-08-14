@@ -95,6 +95,8 @@ Nimbus는 미디어 서버가 아니며 사용자의 라이브러리를 호스�
 
 ![서버와 라이브러리](assets/servers.png)
 
+![연결된 서버 홈](assets/servers-home.png)
+
 ### 라이브러리
 
 필터와 정렬을 지원하는 포스터 월입니다.
@@ -106,10 +108,6 @@ Nimbus는 미디어 서버가 아니며 사용자의 라이브러리를 호스�
 줄거리, 출연진, 에피소드, 미디어 버전, 관련 작품을 확인합니다.
 
 ![상세 상단](assets/detail-hero.png)
-
-![정보와 출연진](assets/detail-info.png)
-
-![에피소드와 관련 작품](assets/detail-episodes.png)
 
 ### 플레이어
 

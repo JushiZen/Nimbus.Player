@@ -95,6 +95,8 @@ Nimbus はメディアサーバーではなく、ライブラリをホストす�
 
 ![サーバーとライブラリ](assets/servers.png)
 
+![接続済みサーバーのホーム](assets/servers-home.png)
+
 ### ライブラリ
 
 フィルターと並べ替えに対応したポスターウォールです。
@@ -106,10 +108,6 @@ Nimbus はメディアサーバーではなく、ライブラリをホストす�
 あらすじ、出演者、エピソード、メディアバージョン、関連作品を表示します。
 
 ![詳細トップ](assets/detail-hero.png)
-
-![作品情報と出演者](assets/detail-info.png)
-
-![エピソードと関連作品](assets/detail-episodes.png)
 
 ### プレイヤー
 
