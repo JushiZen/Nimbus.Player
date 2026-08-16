@@ -148,6 +148,9 @@ Report problems or suggestions through [GitHub Issues](https://github.com/JushiZ
   <a href="https://github.com/LXG-GIT" title="LXG-GIT">
     <img src="https://github.com/LXG-GIT.png" width="50" height="50" alt="LXG-GIT" style="border-radius: 50%;" />
   </a>
+  <a href="https://github.com/QinJiayan-maker" title="QinJiayan-maker">
+    <img src="https://github.com/QinJiayan-maker.png" width="50" height="50" alt="QinJiayan-maker" style="border-radius: 50%;" />
+  </a>
   <a href="https://github.com/continue197" title="continue197">
     <img src="https://github.com/continue197.png" width="50" height="50" alt="continue197" style="border-radius: 50%;" />
   </a>
