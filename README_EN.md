@@ -190,6 +190,9 @@ Report problems or suggestions through [GitHub Issues](https://github.com/JushiZ
   <a href="https://github.com/zhn807716422-coder" title="zhn807716422-coder">
     <img src="https://github.com/zhn807716422-coder.png" width="50" height="50" alt="zhn807716422-coder" style="border-radius: 50%;" />
   </a>
+  <a href="https://github.com/zhongziyang" title="zhongziyang">
+    <img src="https://github.com/zhongziyang.png" width="50" height="50" alt="zhongziyang" style="border-radius: 50%;" />
+  </a>
   <!-- CONTRIBUTORS-END -->
 </div>
 
