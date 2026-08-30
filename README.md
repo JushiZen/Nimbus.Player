@@ -148,6 +148,9 @@
   <a href="https://github.com/HuangSixiang" title="HuangSixiang">
     <img src="https://github.com/HuangSixiang.png" width="50" height="50" alt="HuangSixiang" style="border-radius: 50%;" />
   </a>
+  <a href="https://github.com/Jackxwb" title="Jackxwb">
+    <img src="https://github.com/Jackxwb.png" width="50" height="50" alt="Jackxwb" style="border-radius: 50%;" />
+  </a>
   <a href="https://github.com/Junchnzy" title="Junchnzy">
     <img src="https://github.com/Junchnzy.png" width="50" height="50" alt="Junchnzy" style="border-radius: 50%;" />
   </a>
