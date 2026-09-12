@@ -148,6 +148,9 @@
   <a href="https://github.com/6fg9k" title="6fg9k">
     <img src="https://github.com/6fg9k.png" width="50" height="50" alt="6fg9k" style="border-radius: 50%;" />
   </a>
+  <a href="https://github.com/7Crimson7" title="7Crimson7">
+    <img src="https://github.com/7Crimson7.png" width="50" height="50" alt="7Crimson7" style="border-radius: 50%;" />
+  </a>
   <a href="https://github.com/AsZ00001" title="AsZ00001">
     <img src="https://github.com/AsZ00001.png" width="50" height="50" alt="AsZ00001" style="border-radius: 50%;" />
   </a>
