@@ -196,6 +196,9 @@ Report problems or suggestions through [GitHub Issues](https://github.com/JushiZ
   <a href="https://github.com/nfoviewer" title="nfoviewer">
     <img src="https://github.com/nfoviewer.png" width="50" height="50" alt="nfoviewer" style="border-radius: 50%;" />
   </a>
+  <a href="https://github.com/parkercz" title="parkercz">
+    <img src="https://github.com/parkercz.png" width="50" height="50" alt="parkercz" style="border-radius: 50%;" />
+  </a>
   <a href="https://github.com/sanchendumeng" title="sanchendumeng">
     <img src="https://github.com/sanchendumeng.png" width="50" height="50" alt="sanchendumeng" style="border-radius: 50%;" />
   </a>
