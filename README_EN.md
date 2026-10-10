@@ -187,6 +187,9 @@ Report problems or suggestions through [GitHub Issues](https://github.com/JushiZ
   <a href="https://github.com/hhhh-rpg" title="hhhh-rpg">
     <img src="https://github.com/hhhh-rpg.png" width="50" height="50" alt="hhhh-rpg" style="border-radius: 50%;" />
   </a>
+  <a href="https://github.com/huayujun0922-svg" title="huayujun0922-svg">
+    <img src="https://github.com/huayujun0922-svg.png" width="50" height="50" alt="huayujun0922-svg" style="border-radius: 50%;" />
+  </a>
   <a href="https://github.com/inpast-qcr" title="inpast-qcr">
     <img src="https://github.com/inpast-qcr.png" width="50" height="50" alt="inpast-qcr" style="border-radius: 50%;" />
   </a>
