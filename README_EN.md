@@ -8,7 +8,11 @@
 
 **Less switching. More immersion.**
 
-Connect Jellyfin, Emby, Plex, FnVideo, local folders, SMB, WebDAV, and 115 Cloud in one Windows desktop client for browsing, organizing, and playing your media.
+Connect Jellyfin, Emby, Plex, FnVideo, local folders, SMB, WebDAV, and 115 Cloud in one Windows desktop client for browsing, organizing, and playing your media
+
+[Official website](https://nimbus-player-website.pages.dev/?lang=en) · [Announcements](https://t.me/NimbusPlayerwindows)
+
+Availability depends on your installed version, source permissions and the corresponding service
 
 [Download from Microsoft Store](https://apps.microsoft.com/detail/9nzgd27nw89w?hl=en-US&gl=US) · [Issues](https://github.com/JushiZen/Nimbus.Player/issues) · [Telegram](https://t.me/+Hn3h4sGJohE2ZTll) · [QQ Group](https://qun.qq.com/universal-share/share?ac=1&authKey=LjYdpVHMQlu%2Fm4KaPKGEIVrmMQzhUHlAsb8nPCZpV94NgHIkp43hy%2FX3YWeEKwjm&busi_data=eyJncm91cENvZGUiOiI5NDgwMzYyNzUiLCJ0b2tlbiI6ImgyRGFrbEx2YkRjRkx0dFBuQnRCWURpVHFTNkQ2TmNOUEdjNjZyTWFoRVd2TE9ja2FLTDFOZzcrMzREWDlkSVMiLCJ1aW4iOiI1OTc2MTcxNzQifQ%3D%3D&data=pl-4qcVh0wDEmxyu3FfeCqwg0wtnLT-vs0vphznkKBgMrIHHFuot3D1fdCSqNcoWk0Py6SCutin7tSwPlTCNAA&svctype=4&tempid=h5_group_info)
 
@@ -18,9 +22,9 @@ Connect Jellyfin, Emby, Plex, FnVideo, local folders, SMB, WebDAV, and 115 Cloud
 
 <h2 align="center">One Client for All Your Media Sources</h2>
 
-Nimbus is not a media server and does not host your library. It is a Windows media client that gives servers and direct storage sources one consistent experience for browsing, playback, favorites, history, and continue watching.
+Nimbus is a Windows media client for switching between supported media servers and direct storage in one application; favorites, progress, subtitles and version selection follow each source's capabilities and permissions
 
-Whether your media is on a home server, NAS, local drive, or cloud storage, you can manage and watch it from the same application.
+Media stays on your selected devices or services; Nimbus does not host libraries or supply films and TV shows
 
 ---
 
@@ -32,14 +36,19 @@ Whether your media is on a home server, NAS, local drive, or cloud storage, you 
 - Connect local folders, SMB, WebDAV, and 115 Cloud
 - Switch between sources from one sidebar
 - Poster walls, simple lists, search, favorites, history, and continue watching
+- Search, sorting, pagination, favorites and progress depend on each source's API and permissions; they are not identical across every service
 
 ### Direct Library Organization
 
-- Scan and identify movies, series, anime, variety shows, music, and more
+- Scan and organize ordinary movies and series using online identification or directory NFO and artwork
+- Each local, SMB, WebDAV or 115 resource card independently selects Online / Local-first with online completion / Local-only; Online remains the default
+- Read movie, series, season and episode metadata with common Emby/Kodi naming; use posters, backdrops, thumbnails and logos according to your settings
 - Add posters, summaries, cast, and episode information
-- Correct results with manual matching
-- Improved scanning, rescanning, classification, and metadata storage for large libraries
+- Match manually, preview NFO imports and upload custom artwork in details; parsed metadata and image copies are saved without rewriting media files
+- Rescans retain manual matching locks and imports; removing original uploaded files does not remove saved copies, while deleted automatic directory metadata follows the selected policy
+- Scanning, rescanning, classification and metadata storage for large libraries
 - Merge seasons of the same title to reduce duplicate cards
+- Configure TMDB metadata and image mirrors separately, or clear them to restore defaults; JAV and music retain their independent workflows
 
 ### Playback
 
@@ -47,7 +56,8 @@ Whether your media is on a home server, NAS, local drive, or cloud storage, you 
 - Embedded and external subtitles with display controls
 - Hardware acceleration, color-space controls, picture presets, and network cache settings
 - Optionally prefer the highest-bitrate version for multi-version Jellyfin, Emby, and Plex items
-- Play common ISO, BDMV, and DVD content from local and network sources
+- Built-in MPV waits for actual playback completion before switching episodes by default; optionally set a positive lead time, with full playback when it reaches or exceeds the episode duration
+- Manual episode selection, preloading and automatic/custom intro-outro skipping remain available where the selected source and player support them
 - Playback diagnostics help identify failures
 
 ### Anime and Danmaku
@@ -55,6 +65,7 @@ Whether your media is on a home server, NAS, local drive, or cloud storage, you 
 - Anime identification and episode matching
 - Multiple commonly used danmaku sources
 - Adjustable speed, size, density, and display area
+- Custom colors, white/original color options and black outlines, with separate main-player and FnVideo support
 - Search and switch danmaku content during playback
 
 ### Music
@@ -62,6 +73,14 @@ Whether your media is on a home server, NAS, local drive, or cloud storage, you 
 - Browse and play music libraries
 - Lyrics and word-by-word highlighting
 - Embedded cover extraction for local and WebDAV audio
+- Music metadata is separate from ordinary movie/series NFO and artwork policies; lyric effects depend on the available lyric files and source
+
+### Settings and Watch Records
+
+- Search setting names and descriptions across categories and jump to the matching controls
+- Giant Screen navigation, transparency and page/poster transitions follow your settings, with return during poster entry; smooth performance on every device is not guaranteed
+- Movie and series sorting options for Emby/Plex/Jellyfin depend on the server API
+- Authorize Trakt separately and enable supported playback reporting, progress, history and collection features; imports depend on source support and matching, without a promise of universal two-way synchronization
 
 ---
 
@@ -71,13 +90,21 @@ Whether your media is on a home server, NAS, local drive, or cloud storage, you 
 
 **Jellyfin / Emby / Plex / FnVideo**
 
-Connect with your server address and account. Metadata, playback permissions, transcoding, and watch progress follow the capabilities and settings of each server.
+Use the server's address and login method; metadata, playback permissions, transcoding and progress follow that service's settings and capabilities, while directory policies do not replace server-side metadata
 
 ### Direct Storage
 
 **Local folders / SMB / WebDAV / 115 Cloud**
 
-Browse files directly or build a local library. Nimbus handles scanning, classification, and metadata organization while your media stays on its original device or service.
+Browse files or build resource libraries; local metadata means NFO and artwork in the selected source's media directories, so SMB, WebDAV and 115 still require a connection. Local-only disables automatic online completion for that card's ordinary movies and series, rather than making the whole app offline
+
+---
+
+<h2 align="center">Scope and Compatibility</h2>
+
+- ISO/disc compatibility depends on file structure, media source and player; different structures and network sources may fail, and complete menu navigation or encrypted-disc decryption is not promised. Recognizing ISO, BDMV or DVD content does not guarantee successful playback
+- JAV, music and media servers keep separate workflows; danmaku, subtitles, transcoding, lyrics and Trakt require the corresponding configuration, APIs and metadata, with different capabilities per source
+- Entries marked as in development or unavailable are not released features; screenshots are examples, and layout, theme and available controls depend on your installed version and settings
 
 ---
 
@@ -120,9 +147,9 @@ The separate player window provides subtitle, danmaku, picture, and audio contro
 <h2 align="center">Data and Privacy</h2>
 
 - Nimbus does not upload or host your media files
-- Server credentials are protected using operating-system security features
-- Artwork, metadata, watch history, and logs are stored in your selected local data directory
-- Online metadata, danmaku, update checks, and feedback connect to their corresponding services when used
+- Connection settings are saved; use a trusted device and protect your accounts and application data
+- Local metadata, caches and feedback files use your selected data directory; server watch records and enabled Trakt synchronization send the relevant information to those services
+- Online metadata, danmaku, subtitles and update checks contact their respective services when used; not every operation is offline
 - Logs aim to hide sensitive information; always remove passwords, tokens, full server addresses, and private paths before submitting feedback
 
 ---
@@ -133,7 +160,11 @@ Nimbus is distributed and updated through the [Microsoft Store](https://apps.mic
 
 This repository is for **product information and issue tracking**. It does not contain the application source code and does not accept pull requests against private code.
 
-Report problems or suggestions through [GitHub Issues](https://github.com/JushiZen/Nimbus.Player/issues). Include the app version, media source, reproduction steps, and necessary screenshots, but never publish passwords, tokens, full server addresses, or private file paths.
+Report problems or suggestions through [GitHub Issues](https://github.com/JushiZen/Nimbus.Player/issues), including your installed version, Windows environment, source, reproduction steps, expected and actual results; for playback issues, identify the built-in or external player and include relevant screenshots or error text
+
+Settings → About → Feedback Logs saves a local feedback file and opens its folder; saving does not upload it. Review and remove sensitive information before attaching it yourself, and do not submit media files or usable account credentials
+
+[Website feedback](https://nimbus-player-website.pages.dev/feedback.html?lang=en) and GitHub Issues store separate records; the website form accepts text and public links, so retain its WEB number and receipt link. Use GitHub Issues when you need file attachments or discussion
 
 ---
 
