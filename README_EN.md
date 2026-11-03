@@ -206,6 +206,9 @@ Settings → About → Feedback Logs saves a local feedback file and opens its f
   <a href="https://github.com/QinJiayan-maker" title="QinJiayan-maker">
     <img src="https://github.com/QinJiayan-maker.png" width="50" height="50" alt="QinJiayan-maker" style="border-radius: 50%;" />
   </a>
+  <a href="https://github.com/RampantJhc517" title="RampantJhc517">
+    <img src="https://github.com/RampantJhc517.png" width="50" height="50" alt="RampantJhc517" style="border-radius: 50%;" />
+  </a>
   <a href="https://github.com/SaXz2" title="SaXz2">
     <img src="https://github.com/SaXz2.png" width="50" height="50" alt="SaXz2" style="border-radius: 50%;" />
   </a>
